@@ -1,5 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Balthazar&display=swap");
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+.sidebar {
+  margin-top: 0;
+  width: 15%;
+  background: #333232;
+  min-height: 100vh;
+}
+
+.options {
+  padding-top: 1rem;
+}
+
+.options ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.options ul li {
+  list-style: none;
+  margin: 1rem;
+}
+
+.options ul li a {
+  text-decoration: none;
+  font-family: Balthazar;
+  color: #ffffff;
+  font-size: 25px;
+}
+
+.profile {
+  margin-top: 10rem;
+  text-align: center;
+  color: #ffffff;
+  font-family: Balthazar;
+}
+.account h2 a {
+  color: #ffffff;
+  font-family: Balthazar;
+  text-decoration: none;
 }
