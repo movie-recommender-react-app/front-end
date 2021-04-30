@@ -1,5 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Balthazar&display=swap");
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+body {
+  background-color: #333232;
+}
+.sidebar {
+  margin-top: 0px;
+  width: 15%;
+  background: #1c1c1c;
+  min-height: 100vh;
+}
+
+.options {
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+}
+
+.options ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.options ul li,
+.profile {
+  list-style: none;
+  padding: 1rem;
+  width: 100%;
+}
+.profile {
+  position: relative;
+  cursor: pointer;
+}
+
+.triangle {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  width: 0;
+  height: 0;
+  border: solid 8px;
+  border-color: #fff transparent transparent transparent;
+}
+.settings {
+  visibility: hidden;
+  opacity: 0;
+
+  transition: visibility 0.6s linear, opacity 0.6s linear;
+}
+.settings p {
+  color: #ec6565;
+  font-family: Balthazar;
+  font-size: 20px;
+  padding-left: 40px;
+  margin: 0.7rem;
+}
+.show {
+  visibility: visible;
+  opacity: 1;
+}
+
+.options ul li a {
+  text-decoration: none;
+  font-family: Balthazar;
+  color: #fff;
+  font-size: 25px;
+}
+
+.options ul li:hover,
+.options ul li a:hover {
+  color: #ec6565;
+  background: #333232;
+  transition: 0.2s ease-in;
+}
+
+.options ul:hover {
+  color: #ec6565;
 }
