@@ -40,8 +40,3 @@ export default function Sidebar() {
   );
 }
 
-// hey
-// Are you there
-
-//yes
-// Hello

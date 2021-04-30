@@ -80,3 +80,9 @@ body {
 .options ul:hover {
   color: #ec6565;
 }
+
+h1{
+  color: #fff;
+  font-family: Balthazar;
+  margin: 10px 0 0 10px;
+}
